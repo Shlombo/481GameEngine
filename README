@@ -15,12 +15,6 @@ Tap space to make the character jump
 To lower this platform players can press left, right, and space at the same time.
 
 
-Known Bugs
-There is a bug during multi-player that a player will jump way too high randomly. If this happens, they will come back down within 10 seconds.
-Jump heights are also variable in multiplayer, so getting to the end platform (yellow one) may be challenging, but is possible.
-In order to account for the variable jump height, I set the gravity to be much lower so that it is always possible to get to the end.
-
-
 Brick Breaker Startup and Shutdown
 In order to compile call the "make" command in the terminal in Server_Game_2 directory and Client_Game_2 directory
 In order to execute the program call "./main" in the Server_Game_2 directory in order to start the server.
